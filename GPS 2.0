@@ -1135,7 +1135,6 @@ add_action('wp_ajax_gps_analyst_create_route', function() {
 // ========================================
 
 add_action('wp_ajax_gps_update_work_days', 'gps_update_work_days_handler');
-
 // ========================================
 // AJAX: ACTUALIZAR HORARIO LABORAL
 // ========================================
@@ -4564,7 +4563,7 @@ function seguimiento_gps_shortcode($atts = []) {
 
         <!-- Modal Días Laborales -->
         <div class="modal" id="work-days-modal">
-			<!-- ========================================
+		<!-- ========================================
      MODAL: HORARIO LABORAL
      ======================================== -->
 <div class="modal" id="schedule-modal">
@@ -4605,9 +4604,7 @@ function seguimiento_gps_shortcode($atts = []) {
             <button class="btn" id="save-schedule">💾 Guardar Horario</button>
         </div>
     </div>
-</div>
-
-            <div class="modal-content">
+</div>            <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">⏰ Configurar Días Laborales</h3>
                     <button class="modal-close" data-modal="work-days-modal">×</button>
